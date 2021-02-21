@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*BODY*/
+body {
+    background-image: url(./imagenes2/billionsallpeople.png.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*HEADER*/
+.header {
+    background-color: darkred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.header>a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+
+/*NAV*/
+.navbar {
+    padding: 0 20px;
+}
+.navbar li {
+    list-style: none;
+    display: inline-flex;
+    margin: 0 10px ;;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.navbar a:hover {
+    color: greenyellow;
+    text-decoration: underline;
+   }
+
+.banner, .portafolio, .experiencia-laboral, .contacto {
+    height: 300px;
+}
+/*BANNER*/
+.banner {
+    padding-top: 100px;
+}
+.title h1 {
+    padding: 10px;  
+    font-size: 90px;
+    color: red;
+    text-align: right;
+    letter-spacing: 10px;
+}
+.title h2 {
+    padding: 10px;
+    font-size: 50px;
+    color: red;
+    text-align: right;
+    letter-spacing: 15px;
+}
+
+/*PORTAFOLIO*/
+.portafolio {
+    background-color: rgba(27, 26, 26, 1);
+    height: 500px;    
+}
+.portafolio h2 {
+    color: red;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+}
+.news-cards a{
+    text-decoration: none;
+    color: white;
+}
+
+.news-cards button {
+    width: 100%;
+    width: 100%;
+    margin: 20px 0;
+    background-color: red;
+    padding: 3px;
+}
+
+.news-cards .button:hover {
+    background-color: black;
+    color: white;
+}
+.news-cards a:hover {
+    color: red;
+    background-color: white;
+}
+.news-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    color: white;
+    text-align: center; 
+    padding: 20px;
+}
+
+.news-cards img {
+    width: 100%;
+}
+
+/*EXPERIENCIA LABORAL*/
+
+.experiencia-laboral {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px 0;
+
+}
+.experiencia-laboral h2 {
+    color: red;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.defaul {
+    width: 100%;
+    padding: 20px;
+}
+
+.defaul th {
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+.defaul td {
+    border: 1px solid red;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+/*CONTACTO*/
+.contacto {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contacto h2 {
+    color: red;
+    font-size: 30px;
+    margin-right: -200px;
+}
+.link-contacto {
+    margin-left: -200px;
+}
+
+.contacto a {
+    display: flex;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.contacto svg {
+    margin: 0 10px  ;
+}
+
+/*
+.contacto {
+    padding: 20px;
+    display: flex;
+}
+
+.contacto a {
+    display: flex;
+    color: white;
+}
+*/
+
+/*FOOTER*/
+.footer1 {
+    background-color: darkred;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 30px;
+}
+
+.footer1 img {
+    width: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.footer1 div {
+    text-align: center;
+}
+
+.footer1 h3 {
+    margin: 20px 0;
+}
+
+.interes div {
+    display: inline-block;
+    text-align: center;;
+    margin: 10px
+}
+
+.descripcion, .interes, .rrss {
+    width: 100%;
+    height: 150px;
+    align-items: center;
+}
+
+/*
+.interes-container {
+    display: inline-flex;
+}
+
+.interes-container div {
+    text-align: center;
+    margin: 10px;
+}
+*/
+.rrss svg {
+    margin: 10px;
+}
+footer svg {
+    color: white;
+}
+
+.footer2 {
+    background-color: darkred;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0;
+    border-top: 1px solid white
+}

@@ -1,0 +1,13 @@
+*<span> podemos usar esta etiqueta para contenedores pequeños en lugar de un <div>
+
+*El box-sizin lo que va a impedir es que el contenedor se mas grande y tenga como resultado que aparezca un scroll horizontal
+
+*averiguar mas sobre como funciona el pseudo-elmento :after y :before
+
+la pseudo-clase :root nos permitira crear una variable dentro de CSS en el que podremos añadir un color que queramos aplicar luego a otros elementos 
+
+averiguar mas sobre :root (css3)
+
+
+
+*¿que son template?
